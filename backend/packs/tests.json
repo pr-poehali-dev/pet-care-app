@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Get user pack",
+      "method": "GET",
+      "headers": {
+        "X-User-Id": "test_user_123"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "pack": null
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "payments": "https://functions.poehali.dev/a6e9b254-522c-44db-80e2-f879b0881bbc",
+  "trades": "https://functions.poehali.dev/c624b38c-3e6d-4103-97be-01bd14923a81",
+  "packs": "https://functions.poehali.dev/0819b091-124b-4da2-98fb-4a2b064aa250",
+  "auth": "https://functions.poehali.dev/2617f65f-ffb6-433b-ad2e-8c839b001667",
+  "pets": "https://functions.poehali.dev/5e26b78e-2b8d-4190-a78e-19b4500e6376"
+}

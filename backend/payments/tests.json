@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "name": "Test payment webhook",
+      "method": "POST",
+      "headers": {
+        "X-User-Id": "test_user_123"
+      },
+      "body": {
+        "action": "webhook",
+        "update": {
+          "pre_checkout_query": {
+            "id": "test_query"
+          }
+        }
+      },
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
